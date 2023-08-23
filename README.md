@@ -1,1 +1,2 @@
-"# login-Reg-page" 
+"Simple Responsive Login and resgistration Page"
+"Technologies : HTML , CSS , Javascript "
