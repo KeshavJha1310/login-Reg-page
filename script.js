@@ -1,4 +1,7 @@
+
 document.addEventListener('DOMContentLoaded', function() {
+    const usernameDB = [];
+    const passwordDB = [];
     document.getElementById('myForm').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent default form submission
 
@@ -9,10 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    document.getElementById('login').addEventListener('submit',function(event){
-        
-    })
-
+   
 function validateForm() {
     // Get all input fields within the form
     var inputFields = document.querySelectorAll('input');
@@ -36,7 +36,7 @@ function validateForm() {
     }
 
     // If all fields are filled and valid, the form is valid
-    return authorization();
+    return true;
 }
 
 function containsNumeric(value) {
@@ -45,9 +45,7 @@ function containsNumeric(value) {
 }
 
 function authorization() {
-    const usernameDB = [];
-    const passwordDB = [];
-
+    
     var username = document.getElementById('Username').value;
     var password = document.getElementById('Password').value;
 
@@ -60,8 +58,17 @@ function authorization() {
 
     usernameDB.push(username);
     passwordDB.push(password);
-    
+        console.log(usernameDB)
+        console.log(passwordDB)
+    const usernameDBasString = JSON.stringify(usernameDB)
+    const passwordDBasString = JSON.stringify(passwordDB)
+    localStorage.setItem("userName" ,usernameDBasString)
+    localStorage.setItem("Password" , passwordDBasString)
     alert('Account created!');
+
+
+    window.location.href = "http://127.0.0.1:5500/login.html";
+
 
 }
 });
