@@ -1,6 +1,6 @@
-#Responsive Login and resgistration Page (Underline)
+H1 Responsive Login and resgistration Page 
 ==================
-##Functions (Underline)
+H2 Functions (Underline)
 -----------------
 -Responsive
 -Friendly UI
