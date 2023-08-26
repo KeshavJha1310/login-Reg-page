@@ -267,7 +267,7 @@ Middle name:	 <input type="text" name="MiddleName" value=""placeholder="Middle N
                     <h3 class="d-flex justify-content-center">Registration</h3>
                 </div>
                 <div class="card-body">
-                    <form  onsubmit="return validateForm()">
+                    <form id="myForm">
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-md-4">
@@ -275,7 +275,7 @@ Middle name:	 <input type="text" name="MiddleName" value=""placeholder="Middle N
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-user"></i></span>
                                         </div>
-                                        <input type="text" class="form-control" placeholder="FirstName">
+                                        <input type="text" class="form-control" name="firstName" placeholder="FirstName">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -283,7 +283,7 @@ Middle name:	 <input type="text" name="MiddleName" value=""placeholder="Middle N
                                         <!-- <div class="input-group-prepend">
 										<span class="input-group-text"><i class="fas fa-user"></i></span>
 									</div> -->
-                                        <input type="text" class="form-control" placeholder="MiddleName">
+                                        <input type="text" class="form-control" name="middleName" placeholder="MiddleName">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -291,7 +291,7 @@ Middle name:	 <input type="text" name="MiddleName" value=""placeholder="Middle N
                                         <!-- <div class="input-group-prepend">
 										<span class="input-group-text"><i class="fas fa-user"></i></span>
 									</div> -->
-                                        <input type="text" class="form-control" placeholder="LastName">
+                                        <input type="text" class="form-control" name="lastName" placeholder="LastName">
                                     </div>
                                 </div>
                             </div>
@@ -309,7 +309,7 @@ Middle name:	 <input type="text" name="MiddleName" value=""placeholder="Middle N
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-user"></i></span>
                                         </div>
-                                        <input type="text" class="form-control" placeholder="Username">
+                                        <input type="text" class="form-control" id="Username" placeholder="Username">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -317,7 +317,7 @@ Middle name:	 <input type="text" name="MiddleName" value=""placeholder="Middle N
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-key"></i></span>
                                         </div>
-                                        <input type="password" class="form-control" placeholder="Password">
+                                        <input type="password" class="form-control" id="Password" placeholder="Password">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
