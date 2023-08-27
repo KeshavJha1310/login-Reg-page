@@ -39,4 +39,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Enjoy using the **Responsive Login and Registration Page**. If you have any questions or suggestions, please don't hesitate to contact us. Happy coding! 
+Enjoy using the **Responsive Login and Registration Page**. If you have any questions or suggestions, please don't hesitate to contact us. Happy coding!  
